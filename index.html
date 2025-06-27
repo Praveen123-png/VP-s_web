@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- <html lang="en" data-bs-theme="dark"> -->
-<html lang="en">  
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,25 +15,40 @@
     </head>
 
     <body>
+        <!-- nav bar -->
         <div class="container navBar">
             <header class="d-flex flex-nowrap justify-content-center py-2">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="#topPage" class="nav-link" aria-current="page" id="greenColor">Home</a>
+                        <a
+                            href="#topPage"
+                            class="nav-link"
+                            aria-current="page"
+                            id="greenColor"
+                            >Home</a
+                        >
                     </li>
                     <li class="nav-item">
                         <a href="#aboutMe" class="nav-link" id="greenColor">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skillSet" class="nav-link" id="greenColor">Skill Stack</a>
+                        <a href="#skillSet" class="nav-link" id="greenColor"
+                            >Skill Stack</a
+                        >
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link" id="greenColor">Projects</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" id="greenColor">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" id="greenColor">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="greenColor">Contact</a>
+                    </li>
                 </ul>
             </header>
             <hr />
         </div>
 
+
+        <!-- Hero section -->
         <div class="px-4 py-5 my-5 text-center">
             <!-- <img
                 class="d-block mx-auto mb-4"
@@ -60,7 +75,12 @@
                 </p>
 
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="praveenkumarvp-resume.pdf" download class="btn" style="background-color: #1fc600; color: white;">
+                    <a
+                        href="praveenkumarvp-resume.pdf"
+                        download
+                        class="btn"
+                        style="background-color: #1fc600; color: white"
+                    >
                         Download my Resume
                     </a>
                     <a
@@ -74,6 +94,7 @@
         </div>
 
 
+        <!-- About me section -->
         <div class="container px-4 py-5">
             <h2 class="pb-2 border-bottom" id="aboutMe">About me</h2>
 
@@ -162,7 +183,6 @@
                             </p>
                         </div>
 
-
                         <div class="col d-flex flex-column gap-2">
                             <div id="greenColor">
                                 <svg
@@ -187,7 +207,7 @@
                                 Currently Learning:
                             </h4>
                             <p class="text-body-secondary">
-                                Full Stack Web Development, Node.js, Express.js,
+                                Full Stack Web Development: Node.js, Express.js,
                                 PostgreSql
                             </p>
                         </div>
@@ -195,6 +215,256 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- Projects section -->
+        <!-- Simon Game -->
+        <div class="container my-5">
+            <h2 class="pb-2 border-bottom mb-5" id="projects">Projects</h2>
+
+            <div class="p-5 text-left bg-body-tertiary rounded-3">
+                <h1 class="text-body-emphasis">
+                    Simon <span style="color: #1fc600">G</span
+                    ><span class="text-danger">a</span><span class="text-warning">m</span
+                    ><span class="text-primary">e</span>
+                </h1>
+                <p class="col-lg-8 fs-5 text-muted my-4">
+                    A colorful memory game built with HTML, CSS, and JavaScript. Follow
+                    and repeat the sequence of lights and sounds as it grows with each
+                    level. Designed with vibrant visuals and interactive sound effects for
+                    an engaging experience.
+                </p>
+                <div class="d-inline-flex gap-2 mb-5">
+                    <a
+                        class="d-inline-flex align-items-center btn btn-lg px-4 rounded-pill"
+                        style="background-color: #1fc600; color: white"
+                        type="button"
+                        href="https://praveen123-png.github.io/simon-game/"
+                    >
+                        <svg
+                            class="me-2 align-middle"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-lightning-charge-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"
+                            />
+                        </svg>
+                        Live link
+                    </a>
+                    <a
+                        class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
+                        type="button"
+                        href="https://github.com/Praveen123-png/simon-game"
+                    >
+                        <svg
+                            style="position: relative; top: -1.5px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-github"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                            />
+                        </svg>
+                        GitHub link
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Password Generator -->
+        <div class="container my-5">
+            <div class="p-5 text-left bg-body-tertiary rounded-3">
+                <h1 class="text-body-emphasis">
+                    Password Generator <span style="color: #1fc600">*</span
+                    ><span class="text-danger">*</span><span class="text-warning">*</span
+                    ><span class="text-primary">*</span>
+                </h1>
+                <p class="col-lg-8 fs-5 text-muted my-4">
+                    A customizable password generator built with React.js, HTML, CSS, and
+                    JavaScript. Choose your desired password length and easily include
+                    lowercase, uppercase, numbers, or special characters using simple
+                    checkboxes. Generate strong, secure passwords in one click.
+                </p>
+                <div class="d-inline-flex gap-2 mb-5">
+                    <a
+                        class="d-inline-flex align-items-center btn btn-lg px-4 rounded-pill"
+                        style="background-color: #1fc600; color: white"
+                        type="button"
+                        href="https://praveen123-png.github.io/password-generator-react/"
+                    >
+                        <svg
+                            class="me-2 align-middle"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-lightning-charge-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"
+                            />
+                        </svg>
+                        Live link
+                    </a>
+                    <a
+                        class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
+                        type="button"
+                        href="https://github.com/Praveen123-png/password-generator-react"
+                    >
+                        <svg
+                            style="position: relative; top: -1.5px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-github"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                            />
+                        </svg>
+                        GitHub link
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TO DO list -->
+        <div class="container my-5">
+            <!-- <h2 class="pb-2 border-bottom mb-5" id="projects">Projects</h2> -->
+
+            <div class="p-5 text-left bg-body-tertiary rounded-3">
+                <h1 class="text-body-emphasis">
+                    <span style="color: #1fc600">T</span><span class="text-danger">O</span
+                    ><span class="text-warning">D</span
+                    ><span class="text-primary">O</span> List
+                </h1>
+                <p class="col-lg-8 fs-5 text-muted my-4">
+                    A distraction-free task manager with a minimal UI. Add, rearrange, and
+                    delete tasks effortlessly to stay organized and focused. Built for
+                    simplicity, with clean design and smooth functionality.
+                </p>
+                <div class="d-inline-flex gap-2 mb-5">
+                    <a
+                        class="d-inline-flex align-items-center btn btn-lg px-4 rounded-pill"
+                        style="background-color: #1fc600; color: white"
+                        type="button"
+                        href="https://praveen123-png.github.io/todolist-react/"
+                    >
+                        <svg
+                            class="me-2 align-middle"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-lightning-charge-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"
+                            />
+                        </svg>
+                        Live link
+                    </a>
+                    <a
+                        class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
+                        type="button"
+                        href="https://github.com/Praveen123-png/todolist-react"
+                    >
+                        <svg
+                            style="position: relative; top: -1.5px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-github"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                            />
+                        </svg>
+                        GitHub link
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Number guessing Game -->
+        <div class="container my-5">
+            <div class="p-5 text-left bg-body-tertiary rounded-3">
+                <h1 class="text-body-emphasis">
+                    Number guessing <span style="color: #1fc600">G</span
+                    ><span class="text-danger">a</span><span class="text-warning">m</span
+                    ><span class="text-primary">e</span>
+                </h1>
+                <p class="col-lg-8 fs-5 text-muted my-4">
+                    A fun, interactive game where the computer picks a random number and
+                    you try to guess it. Get real-time hints—guess higher or lower—and see
+                    how many attempts it takes to find the right answer.
+                </p>
+                <div class="d-inline-flex gap-2 mb-5">
+                    <a
+                        class="d-inline-flex align-items-center btn btn-lg px-4 rounded-pill"
+                        style="background-color: #1fc600; color: white"
+                        type="button"
+                        href="https://praveen123-png.github.io/number-guessing-game-react/"
+                    >
+                        <svg
+                            class="me-2 align-middle"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-lightning-charge-fill"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"
+                            />
+                        </svg>
+                        Live link
+                    </a>
+                    <a
+                        class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
+                        type="button"
+                        href="https://github.com/Praveen123-png/number-guessing-game-react"
+                    >
+                        <svg
+                            style="position: relative; top: -1.5px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-github"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                            />
+                        </svg>
+                        GitHub link
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact me -->
+        <footer>
+
+        </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script
