@@ -1,0 +1,14 @@
+/* body {
+    background-color: hsl(0, 0%, 90%);
+} */
+
+
+@media (max-width: 480px) {
+    .navBar{
+        display: none;
+    }
+}
+
+#greenColor{
+    color: #228B22;
+}
