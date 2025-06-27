@@ -4,12 +4,17 @@
 
 
 @media (max-width: 480px) {
-    .navBar{
+    .navBar {
         display: none;
+    }
+
+    #btnContainer {
+        display: flex;
+        flex-direction: column;
     }
 }
 
-#greenColor{
+#greenColor {
     color: #1fc600;
     /* color: greenyellow; */
 }
