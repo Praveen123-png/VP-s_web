@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- <html lang="en" data-bs-theme="dark"> -->
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,6 +46,25 @@
                 </ul>
             </header>
             <hr />
+        </div>
+
+        <!-- dark mode button -->
+        <div id="darkBtnContainer">
+            <button id="darkModeBtn">
+                <svg
+                    id="logo"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="28"
+                    fill="currentColor"
+                    class="bi bi-brightness-low"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        id="svgPath"
+                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8m.5-9.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707"
+                    />
+                </svg>
+            </button>
         </div>
 
         <!-- Hero section -->
@@ -476,9 +494,9 @@
                             <a href="#" class="nav-link px-2 text-body-secondary">
                                 <!-- home -->
                                 <svg
+                                    id="footerSvg"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
+                                    height="24"
                                     fill="currentColor"
                                     class="bi bi-house"
                                     viewBox="0 0 16 16"
@@ -497,9 +515,9 @@
                             >
                                 <!-- GitHub -->
                                 <svg
+                                    id="footerSvg"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
+                                    height="24"
                                     fill="currentColor"
                                     class="bi bi-github"
                                     viewBox="0 0 16 16"
@@ -517,9 +535,9 @@
                             >
                                 <!-- LinkedIn -->
                                 <svg
+                                    id="footerSvg"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
+                                    height="24"
                                     fill="currentColor"
                                     class="bi bi-linkedin"
                                     viewBox="0 0 16 16"
@@ -532,12 +550,16 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="https://praveenkumar814444@gmail.com" class="nav-link px-2" style="color: #1fc600">
+                            <a
+                                href="https://praveenkumar814444@gmail.com"
+                                class="nav-link px-2"
+                                style="color: #1fc600"
+                            >
                                 <!-- mail -->
                                 <svg
+                                    id="footerSvg"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
+                                    height="24"
                                     fill="currentColor"
                                     class="bi bi-envelope-at-fill"
                                     viewBox="0 0 16 16"
@@ -559,9 +581,9 @@
                             >
                                 <!-- resume -->
                                 <svg
+                                    id="footerSvg"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
+                                    height="24"
                                     fill="currentColor"
                                     class="bi bi-file-earmark-person"
                                     viewBox="0 0 16 16"
@@ -575,6 +597,9 @@
                         </li>
                     </ul>
                     <p class="text-center text-body-secondary">Praveen Kumar V P</p>
+                    <p class="text-center text-body-secondary">
+                        Mail: praveenkumar814444@gmail.com
+                    </p>
                     <p class="text-center text-body-secondary">
                         Built with HTML, CSS, JavaScript, and Bootstrap 5
                     </p>

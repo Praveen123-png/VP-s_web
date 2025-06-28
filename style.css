@@ -14,6 +14,42 @@
     }
 }
 
+@media (max-width: 635px) {
+    #darkModeBtn {
+        display: none;
+    }
+}
+
+#darkBtnContainer {
+    position: relative;
+}
+
+#darkModeBtn {
+    background-color: hsla(0, 0%, 80%, 0.317);
+    backdrop-filter: blur(2px);
+    border: 1.5px solid hsl(0, 0%, 60%);
+    border-radius: 50%;
+    outline: none;
+    padding: .5rem;
+    position: absolute;
+    top: -5rem;
+    right: .5rem;
+    z-index: 999;
+}
+
+#darkModeBtn:hover{
+    background-color: hsla(0, 0%, 53%, 0.317);
+}
+
+#logo{
+    opacity: .5;
+    rotate: 30deg;
+}
+
+#footerSvg:hover{
+    scale: 1.2;
+}
+
 #greenColor {
     color: #1fc600;
     /* color: greenyellow; */
