@@ -25,7 +25,8 @@
 }
 
 #darkModeBtn {
-    background-color: hsla(0, 0%, 80%, 0.317);
+    /* background-color: hsla(0, 0%, 80%, 0.317); */
+    background-color: hsl(81, 100%, 39%);
     backdrop-filter: blur(2px);
     border: 1.5px solid hsl(0, 0%, 60%);
     border-radius: 50%;
@@ -38,12 +39,14 @@
 }
 
 #darkModeBtn:hover{
-    background-color: hsla(0, 0%, 53%, 0.317);
+    /* background-color: hsla(0, 0%, 53%, 0.317); */
+    background-color: hsl(111, 100%, 39%);
 }
 
 #logo{
-    opacity: .5;
-    rotate: 30deg;
+    color: black;
+    /* opacity: .5; */
+    /* rotate: 30deg; */
 }
 
 #footerSvg:hover{
